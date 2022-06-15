@@ -7,7 +7,7 @@ WHO=$(whoami)
 if [ $WHO == root ]
 then
 
-cd /root/W_MAP && sudo python3 langc.py
+cd /root/langc && sudo python3 langc.py
 
 else
 
